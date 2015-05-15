@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#page{
+}
+.no-gutter [class*="col-"] {
+  padding:0;
+}
+
+#map{
+  position: fixed;
+  background-color: #050505;
+  border-left: 1px solid white;
+  color: #fff;
+  right: 0;
+  padding: 1%;
+}
+
+.content{
+  padding-top: 5%;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+.content h1{
+  padding-bottom: 2%;
+}
+
+.jumbo{
+  width: 100%;
+}
+
+.jumbo h1{
+  font-size: 5em;
+}
+
+.jumbo table {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dumbo{
+  padding-top: 12.5%;
+  padding-bottom: 12.5%;
+}
+
+.mini{
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+/*
+
+  Sections
+
+*/
+
+#p0{
+  background-color: #404;
+  color: #F88;
+}
+
+#p1{
+  background-color: #013;
+  color: #FF8;
+}
+
+#p2{
+  background-color: #000009;
+  color: #99F;
+}
+#p3{
+  background-color: #032409;
+  color: #0D8;
+}
+
+#footer{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #400040;
+  color: #fff;
+  text-align: center;
+}
+
+/*
+
+  Miscellaneous
+
+*/
+
+#profile-header{
+  width: 80%;
+  margin: auto;
+}
+
+#profile-image{
+  text-align: center;
+}
+
+#profile-image img{
+  height: 150px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#profile-title{
+  text-align: center;
+}
+
+#floater{
+  left: -200px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 1%;
+  background-color: #DCF;
+  position: fixed;
+  bottom: 5%;
+  font-size: 2em;
+}
+
+#social{
+  list-style-type: none;
+}
+
+.social-content{
+  color: #FFF;
+  width: 30%;
+  margin-left: 10%;
+}
+.social-content * {
+  text-align: center;
+}
+
+.para a:hover, .para a:visited, .para a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.para{
+  position: relative;
+  padding-bottom: 1%;
+  font-size: 1.2vw;
+  text-align: left;
+}
+
+.active{
+  font-size: 1.5vw;
+}
